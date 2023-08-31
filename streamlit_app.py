@@ -13,10 +13,10 @@ a=st.number_input('insert 1st integer number')
 b=st.number_input('insert 2nd integer number')
 c=st.number_input('insert 3rd integer number')
 if (a>b and a>c):
-  st.write("a is largest")
+  st.write("1st number is largest")
 
 if (b>a and b>c):
-  st.write("b is largest")
+  st.write("2nd number is largest")
 
 if (c>b and c>a):
-  st.write("c is largest")
+  st.write("3rd number is largest")
