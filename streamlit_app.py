@@ -9,9 +9,9 @@ Original file is located at
 
 import streamlit as st
 st.write('Find Largest of 3 number')
-a=st.number_input('insert a integer number')
-b=st.number_input('insert a integer number')
-c=st.number_input('insert a integer number')
+a=st.number_input('insert 1st integer number')
+b=st.number_input('insert 2nd integer number')
+c=st.number_input('insert 3rd integer number')
 if (a>b and a>c):
   st.write("a is largest")
 
